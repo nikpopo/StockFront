@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.navbar-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-button {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-button:last-child {
+    margin-left: auto;
+}
