@@ -1,0 +1,45 @@
+@import 'fonts.css';
+
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #001f3f;
+    height: 100vh;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.registration-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.registration-form input::placeholder {
+    color: #ffffff;
+}
+
+.registration-form input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #ffffff;
+    background-color: #0f345e;
+}
+
+.registration-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #0f345e;
+    color: white;
+    font-family: 'Gilroy-Bold', sans-serif;
+}

@@ -38,6 +38,7 @@ function Login() {
                 <input name="login" type="text" placeholder="Логин" required />
                 <input name="password" type="password" placeholder="Пароль" required />
                 <button type="submit">Войти</button>
+                <button type="submit">Зарегистрироваться</button>
             </form>
         </div>
     );

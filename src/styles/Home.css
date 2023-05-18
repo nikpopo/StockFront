@@ -1,0 +1,30 @@
+@import 'fonts.css';
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001f3f;
+    box-sizing: border-box;
+    color: white;
+}
+
+.stocks-section {
+    flex: 0 0 20%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.graph-section {
+    flex: 0 0 40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trading-section {
+    flex: 0 0 40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
